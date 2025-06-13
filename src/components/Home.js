@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const Home = () => {
-  const [showContact, setShowContact] = useState(false);
+  // const [showContact, setShowContact] = useState(false);
   const [showResume, setShowResume] = useState(false);
 
   return (
@@ -44,12 +44,12 @@ const Home = () => {
         </motion.p>
 
         <div className="flex justify-center space-x-4">
-          <button
+          {/* <button
             onClick={() => setShowContact(true)}
             className="px-6 py-2 bg-blue-600 rounded-full hover:bg-blue-700 transition duration-300"
           >
             Contact Me
-          </button>
+          </button> */}
           <button
             onClick={() => setShowResume(true)}
             className="px-6 py-2 bg-gray-800 rounded-full hover:bg-gray-900 transition duration-300"
@@ -60,8 +60,8 @@ const Home = () => {
       </div>
 
       {/* 📨 Contact Modal */}
-      <AnimatePresence>
-        {showContact && (
+       <AnimatePresence>
+        {/* {showContact && (
           <motion.div
             className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
             initial={{ opacity: 0 }}
@@ -95,7 +95,7 @@ const Home = () => {
               </form>
             </motion.div>
           </motion.div>
-        )}
+        )}  */}
 
         {/* 📄 Resume Modal */}
         {showResume && (

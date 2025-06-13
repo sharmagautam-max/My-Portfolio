@@ -41,7 +41,7 @@ const Project = () => {
             </p>
             <div className="flex gap-4">
               <a
-                href="https://stocks-management-project.netlify.app/"
+                href="https://stock-management-delta-three.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-4 py-2 bg-purple-600 text-white rounded-full hover:bg-purple-700 transition"
@@ -49,7 +49,7 @@ const Project = () => {
                 Live Demo <FaExternalLinkAlt />
               </a>
               <a
-                href="https://github.com/your-username/Stock-Management-Project"
+                href="https://github.com/sharmagautam-max/Stock_management"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-4 py-2 bg-gray-800 text-white rounded-full hover:bg-black transition"
